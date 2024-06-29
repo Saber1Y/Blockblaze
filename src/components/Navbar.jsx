@@ -2,8 +2,8 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="w-full flex items-center justify-between p-4">
-      <h1>Blockblaze Hub</h1>
+    <nav className="w-full flex items-center justify-between p-4  sticky top-0 z-50 border-green-500 border-b shadow-md">
+      <h1 className=" text-gradient-green">Blockblaze Hub</h1>
 
       <ul className="flex space-x-4">
         <li>Home</li>
@@ -40,8 +40,8 @@ const Navbar = () => {
         </div>
       </form>
 
-      <button className="bg-purple-800 text-white border p-4 rounded-lg px-5 py-2.3 font-medium text-sm">
-        Login
+      <button className="bg-purple-800 text-white border p-4 rounded-lg px-5 py-2 font-medium text-sm gradient-purple">
+        Log in
       </button>
     </nav>
   );

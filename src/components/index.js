@@ -1,5 +1,5 @@
 import Navbar from '../components/Navbar';
-
+import Hero from './Hero';
 
 
 
@@ -8,4 +8,5 @@ import Navbar from '../components/Navbar';
 
 export {
     Navbar,
+    Hero
 }

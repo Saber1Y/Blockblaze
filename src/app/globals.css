@@ -31,3 +31,10 @@ body {
     text-wrap: balance;
   }
 }
+
+.border-gradient {
+  border: 1px solid;
+  border-image-source: linear-gradient(90deg, #42aa99 29.44%, #703dc8 66.05%);
+  border-image-slice: 1;
+  border-radius: 9999px; 
+}
