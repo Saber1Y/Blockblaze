@@ -1,10 +1,11 @@
 import React from 'react'
+import { Navbar } from '@/components'
 
 const page = () => {
   return (
-    <div>
-      Hii
-    </div>
+    <>
+      <Navbar />
+    </>
   )
 }
 
