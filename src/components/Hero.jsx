@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className="flex flex-col items-center justify-center h-screen">
+    <section className="flex flex-col items-center justify-center h-screen bg-hero-bg">
       <h5 className="border-gradient text-primary font-mess rounded-full px-5 py-2">
         Welcome to Blockblaze Hub
       </h5>

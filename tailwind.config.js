@@ -1,3 +1,5 @@
+const { url } = require('inspector');
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -8,12 +10,12 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        assansin: "url('/public/images/assasins.png)",
+        hero: "url('/public/images/hero-bg.png')"
       },
       colors: {
-        primary: '#118670'
+        primary: '#118670',
+        secondary: '#021611B5'
       },
       fontFamily: {
         mess: ['El Messiri', 'sans-serif'],
