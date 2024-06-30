@@ -6,7 +6,7 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <section className="relative flex items-center justify-center h-screen bg-hero bg-cover">
-      <div className="absolute inset-0 bg-black opacity-40 z-0"></div>
+      <div className="absolute inset-0 bg-black opacity-60 z-0"></div>
       <div className="relative z-10 flex flex-col items-center text-center">
         <h5 className="border border-x-[#42AA99] border-y-[#703DC8]  rounded-lg ">
           <span className="tracking-widest leading-4 text-primary font-mess px-20 py-2 ">

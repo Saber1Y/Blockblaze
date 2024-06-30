@@ -1,5 +1,5 @@
 import React from 'react'
-import { Hero, About, Featured } from './index'
+import { Hero, About, Featured, Games } from './index'
 
 
 const page = () => {
@@ -8,6 +8,7 @@ const page = () => {
       <Hero />
       <About />
       <Featured />
+      <Games />
     </>
   )
 }
