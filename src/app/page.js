@@ -1,11 +1,10 @@
 import React from 'react'
-import { Navbar, Hero, About } from '@/constant'
-import Featured from '@/constant/Featured'
+import { Hero, About, Featured } from './index'
+
 
 const page = () => {
   return (
     <>
-
       <Hero />
       <About />
       <Featured />
