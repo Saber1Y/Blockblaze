@@ -5,7 +5,7 @@ const Navbar = () => {
     <nav className="w-full flex items-center justify-between p-4  bg-transparent sticky top-0 z-50 border-green-500  border-b shadow-md">
       <h1 className=" text-gradient-green">Blockblaze Hub</h1>
 
-      <ul className="flex space-x-4">
+      <ul className="flex space-x-4 font-raleway">
         <li>Home</li>
         <li>About</li>
         <li>Games</li>
@@ -35,12 +35,12 @@ const Navbar = () => {
           <input
             type="search"
             name=""
-            className="block w-[200px] h-[20px] p-4 ps-10 text-sm text-white border border-gray-300 rounded-lg bg-[#04251C]"
+            className="block w-[200px] h-[20px] p-4 ps-10 text-sm text-white border-none rounded-lg bg-[#021611B5]"
           />
         </div>
       </form>
 
-      <button className="bg-purple-800 text-white border p-4 rounded-lg px-5 py-2 font-medium text-sm gradient-purple">
+      <button className="bg-purple-800 text-white border-none p-4 rounded-lg px-8 py-2 font-medium text-sm gradient-purple">
         Log in
       </button>
     </nav>

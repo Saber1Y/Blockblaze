@@ -6,8 +6,8 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <section className="bg-secondary flex items-center justify-between bg-assasin bg-cover bg-center p-4">
-      <div>
+    <section className="bg-[#021611B5] relative flex items-center justify-between">
+      <div className="">
         <h3>About</h3>
         <h5 className="font-normal text-4xl text-primary my-3">
           Blockblaze Hub
@@ -26,7 +26,8 @@ const About = () => {
         </p>
       </div>
 
-      <div className="flex">
+      <div className="flex bg-assasins bg-center">
+        
         <Image src={splinter} width={250} />
         <Image src={unlock} width={250} className="z-20" />
         <Image src={uvium} width={250} />

@@ -9,16 +9,18 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'raleway': ['Raleway', 'sans-serif'],
+        'mess': ["El Messiri"],
+      },
       backgroundImage: {
         'hero': "url('/images/hero.png')",
-        // hero: "url('/public/images/hero-bg.png')"
+        'assasins': "url('/images/assasins.png')",
+        'gradient-custom': 'linear-gradient(to right, #0C6F56, #391F65)',
       },
       colors: {
         primary: '#118670',
         secondary: '#021611B5'
-      },
-      fontFamily: {
-        mess: ['El Messiri', 'sans-serif'],
       },
     },
   },

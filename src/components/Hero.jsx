@@ -8,15 +8,17 @@ const Hero = () => {
     <section className="relative flex items-center justify-center h-screen bg-hero bg-cover">
       <div className="absolute inset-0 bg-black opacity-40 z-0"></div>
       <div className="relative z-10 flex flex-col items-center text-center">
-        <h5 className="border-gradient text-primary font-mess rounded-full px-5 py-2">
-          Welcome to Blockblaze Hub
+        <h5 className="border border-x-[#42AA99] border-y-[#703DC8]  rounded-lg ">
+          <span className="tracking-widest leading-4 text-primary font-mess px-20 py-2 ">
+            Welcome to Blockblaze Hub
+          </span>
         </h5>
         <p className="mt-4 text-5xl font-normal">
           Join the revolution;{" "}
           <span className="text-[#118670]">Blockblaze Hub</span> your <br />
           gateway to next gen <span className="text-[#118670]">gaming</span>
         </p>
-        <p className="mt-5 font-semibold font-sans">
+        <p className="mt-8 font-semibold font-raleway leading-5 tracking-wide">
           Experience the Ultimate in Blockchain Gaming, from Play-to
           <br />
           Earn Mechanics to NFT Marketplaces and Community Events.
