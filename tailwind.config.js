@@ -10,8 +10,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        assansin: "url('/public/images/assasins.png)",
-        hero: "url('/public/images/hero-bg.png')"
+        'hero': "url('/images/hero.png')",
+        // hero: "url('/public/images/hero-bg.png')"
       },
       colors: {
         primary: '#118670',
