@@ -8,7 +8,7 @@ const Featured = () => {
   return (
     <section className="gradient-custom w-full">
       <div className="flex items-center ">
-        <div className="p-4 space-y-4">
+        <div className="p-4 space-y-3">
           <h2 className="text-primary font-semibold text-3xl">
             Featured Games
           </h2>
@@ -24,11 +24,11 @@ const Featured = () => {
             </button>
           </div>
         </div>
-        <Image src={glasses} width={200} alt="girl VR" className="ml-10" />
+        <Image src={glasses} width={200} height={80} alt="girl VR" className="ml-20" />
 
         <div className="flex justify-end w-full relative">
-          <Image src={character3} width={200} alt="Character3" className="" />
-          <Image src={gamepad} width={180} alt="Controller" />
+          <Image src={character3} width={200} height={80} alt="Character3" className="" />
+          <Image src={gamepad} width={180} height={80} alt="Controller" />
         </div>
       </div>
     </section>

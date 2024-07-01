@@ -1,6 +1,6 @@
 import { Chewy } from "next/font/google";
 import "./globals.css";
-import { Navbar, } from "@/app";
+import { Navbar, } from "@/components";
 
 
 const chewy = Chewy({

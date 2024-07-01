@@ -2,15 +2,15 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="w-full flex items-center justify-between p-4  bg-transparent sticky top-0 z-50 border-green-500  border-b shadow-md">
-      <h1 className=" text-gradient-green">Blockblaze Hub</h1>
+    <nav className="w-full flex items-center justify-between p-4 bg-transparent sticky top-0 z-50 border-[#698970]  border-b shadow-md">
+      <h1 className="text-gradient-green cursor-pointer">Blockblaze Hub</h1>
 
-      <ul className="flex space-x-4 font-raleway">
+      <ul className="flex space-x-4 font-raleway cursor-pointer">
         <li>Home</li>
         <li>About</li>
         <li>Games</li>
         <li>MarketPlace</li>
-        <li></li>
+        <li>Dashboard</li>
       </ul>
 
       <form action="">

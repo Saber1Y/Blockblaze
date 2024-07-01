@@ -13,7 +13,7 @@ const Hero = () => {
             Welcome to Blockblaze Hub
           </span>
         </h5>
-        <p className="mt-4 text-5xl font-normal">
+        <p className="mt-4 text-5xl tracking-wide font-normal">
           Join the revolution;{" "}
           <span className="text-[#118670]">Blockblaze Hub</span> your <br />
           gateway to next gen <span className="text-[#118670]">gaming</span>
@@ -40,7 +40,7 @@ const Hero = () => {
             width={350}
             height={50}
             alt="female character"
-            className="object-contain"
+            className="object-contain h-auto"
           />
         </div>
         <div className="w-1/2 flex justify-end">

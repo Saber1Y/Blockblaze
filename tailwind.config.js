@@ -12,6 +12,7 @@ module.exports = {
       fontFamily: {
         'raleway': ['Raleway', 'sans-serif'],
         'mess': ["El Messiri"],
+        'babs': ['Baloo 2', 'sans-serif']
       },
       backgroundImage: {
         'hero': "url('/images/hero.png')",

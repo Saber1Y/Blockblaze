@@ -1,5 +1,5 @@
 import React from 'react'
-import { Hero, About, Featured, Games } from './index'
+import { Hero, About, Featured, Games } from '../components/index'
 
 
 const page = () => {
