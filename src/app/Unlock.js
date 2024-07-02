@@ -3,7 +3,8 @@ import React from 'react'
 const Unlock = () => {
     return (
         <div>
-            Unlock
+            <h1>Unlock the Power Of Blockchain gaming</h1>
+            <p>Explore our comprehensive <span className='inline-block text-primary'>guides, tutorials,</span> and <span className='inline-block text-primary'>resources</span> to master the world of blockchain gaming and NFTs.</p>
         </div>
     )
 }

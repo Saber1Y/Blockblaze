@@ -1,5 +1,5 @@
 import React from 'react'
-import { Hero, About, Featured, Games } from './index'
+import { Hero, About, Featured, Games, Unlock } from './index'
 
 
 const page = () => {
@@ -9,6 +9,7 @@ const page = () => {
       <About />
       <Featured />
       <Games />
+      <Unlock />
     </>
   )
 }
