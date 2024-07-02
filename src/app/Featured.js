@@ -9,17 +9,17 @@ const Featured = () => {
     <section className="gradient-custom w-full">
       <div className="flex items-center ">
         <div className="p-4 space-y-3">
-          <h2 className="text-primary font-semibold text-3xl">
+          <h2 className="text-[#118670] font-semibold text-3xl">
             Featured Games
           </h2>
           <p className="font-mess tracking-wide">
             Featured games Discover our featured to blockchain games{" "}
           </p>
-          <div className=" flex space-x-5 bg-neutral-900 w-2/2">
+          <div className=" flex space-x-5">
             <button className="border-none rounded-lg bg-purple-700 text-white px-5 py-2">
-              Get Started
+              Popular
             </button>
-            <button className="border border-x-[#6F4DA0] border-y-[#3E89A2] rounded-lg  text-white px-5 py-2">
+            <button className="border border-x-[#6F4DA0] bg-neutral-700 border-y-[#3E89A2] rounded-lg  text-white px-5 py-2">
               Play now
             </button>
           </div>
