@@ -1,7 +1,8 @@
 import React from "react";
 import Image from "next/image";
+import Button from "./Button";
 
-const Card = ({ img, header, text, btn, id }) => {
+const Card = ({ img, header, text, id }) => {
   return (
     <div className="max-w-sm  rounded-lg shadow" id={id}>
       <Image
@@ -23,9 +24,7 @@ const Card = ({ img, header, text, btn, id }) => {
           {text}
         </p>
         <div className="flex justify-end ">
-          <button className="inline-flex items-center px-5 py-2 text-sm font-medium text-center text-white bg-[#031B14]  rounded-lg  focus:outline-none ">
-            {btn}
-          </button>
+          <Button text={"Play now"} />
         </div>
       </div>
     </div>

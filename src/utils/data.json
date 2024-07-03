@@ -1,0 +1,20 @@
+[
+    {
+        "number": "1",
+        "header": "what is blockchain gaming?",
+        "details": [
+            "Basics of blockchain technology",
+            "How blockchain is applied to gaming",
+            "Blockchain gaming in comparison to traditional gaming"
+        ]
+    },
+    {
+        "number": "2",
+        "header": "Introduction to NFTS",
+        "details": [
+            "What are NFTS and how it can be used",
+            "How can NFTS be applied to gaming?",
+            "How to buy and Sell NFTs"
+        ]
+    }
+]

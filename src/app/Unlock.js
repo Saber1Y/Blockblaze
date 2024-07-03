@@ -1,5 +1,8 @@
-import React from 'react'
-import Segment from '@/components/Segment'
+import React from 'react';
+import Segment from '@/components/Segment';
+import data from '../utils/data.json';
+
+
 
 const Unlock = () => {
     return (
@@ -9,7 +12,14 @@ const Unlock = () => {
                 <p className='font-raleway'>Explore our comprehensive <span className='inline-block text-primary'>guides, tutorials,</span> and <span className='inline-block text-primary'>resources</span> to master the world of blockchain gaming and NFTs.</p>
             </div>
             <div>
-                <Segment />
+                {data.map((item, index) => (
+                    <Segment
+                        key={index}
+                        number={item.number}
+                        header={item.header}
+                        details={item.details}
+                    />
+                ))}
             </div>
         </section>
     )
