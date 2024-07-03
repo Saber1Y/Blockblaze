@@ -1,9 +1,9 @@
 import React from "react";
 import Button from "./Button";
 
-const Segment = ({ number, header, details }) => {
+const Segment = ({ number, header, details, bgColor }) => {
   return (
-    <section className="flex flex-col bg-[#50837E] border rounded-lg w-1/4 px-10 py-8">
+    <section className="flex flex-col  border rounded-lg  px-10 py-8 " style={{ backgroundColor: bgColor }}>
       <span className=" text-4xl">{number}</span>
       <div className="flex w-full">
         <h3 className="text-3xl pr-5">{header}</h3>

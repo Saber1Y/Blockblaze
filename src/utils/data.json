@@ -6,7 +6,8 @@
             "Basics of blockchain technology",
             "How blockchain is applied to gaming",
             "Blockchain gaming in comparison to traditional gaming"
-        ]
+        ],
+        "bgColor": "#50837E"
     },
     {
         "number": "2",
@@ -15,6 +16,27 @@
             "What are NFTS and how it can be used",
             "How can NFTS be applied to gaming?",
             "How to buy and Sell NFTs"
-        ]
+        ],
+        "bgColor": "#ACA061"
+    },
+    {
+        "number": "3",
+        "header": "getting started with out digital wallets",
+        "details": [
+            "How to set-up and use digital wallets like metamask and ledger",
+            "Step by step guides on how to earn with Play-to-earn games"
+        ],
+        "bgColor": "#A59797"
+
+    },
+    {
+        "number": "4",
+        "header": "Using smart contracts in gaming",
+        "details": [
+            "The concept of smart contracts",
+            "The role of smart contracts in gaming",
+            "Examples of Games using smart contracts"
+        ],
+        "bgColor": "#8C70A1"
     }
 ]
