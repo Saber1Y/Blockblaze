@@ -17,6 +17,7 @@ module.exports = {
       backgroundImage: {
         'hero': "url('/images/hero.png')",
         'assasins': "url('/images/assasins.png')",
+        'people': "url('/images/people.png')",
         'gradient-custom': 'linear-gradient(to right, #0C6F56, #391F65)',
       },
       colors: {
