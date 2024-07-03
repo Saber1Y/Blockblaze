@@ -1,6 +1,6 @@
 import { Chewy } from "next/font/google";
 import "./globals.css";
-import { Navbar, } from "@/app";
+import { Navbar, Footer } from "@/app";
 
 
 const chewy = Chewy({
@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
       <body className={chewy.className}>
         <Navbar />
         {children}
-        {/* <Footer /> */}
+        <Footer />
       </body>
     </html>
   );
