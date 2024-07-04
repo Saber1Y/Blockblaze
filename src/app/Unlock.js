@@ -12,13 +12,13 @@ const Unlock = () => {
                 <p className='font-raleway'>Explore our comprehensive <span className='inline-block text-primary'>guides, tutorials,</span> and <span className='inline-block text-primary'>resources</span> to master the world of blockchain gaming and NFTs.</p>
             </div>
             <div className='grid grid-cols-2 gap-y-10 gap-x-10 mt-8'>
-                {data.map((item, index) => (
+                {data.segmentData.map((segment, index) => (
                     <Segment
                         key={index}
-                        number={item.number}
-                        header={item.header}
-                        details={item.details}
-                        bgColor={item.bgColor}
+                        number={segment.number}
+                        header={segment.header}
+                        details={segment.details}
+                        bgColor={segment.bgColor}
                     />
                 ))}
             </div>
