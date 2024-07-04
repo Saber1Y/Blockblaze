@@ -3,7 +3,7 @@ import Button from '@/components/Button';
 
 const Community = () => {
     return (
-        <section className="relative text-center bg-people bg-center bg-cover bg-no-repeat min-h-screen flex flex-col items-center justify-center p-4">
+        <section className="relative text-center bg-people bg-center bg-cover bg-no-repeat  flex flex-col items-center justify-center p-4">
             <div className="absolute inset-0 bg-black opacity-60 z-0"></div>
             <div className="relative z-10">
                 <h1 className="text-5xl tracking-wide font-bold text-white">Join Our Gaming Community</h1>

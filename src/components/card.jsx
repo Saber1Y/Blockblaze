@@ -2,15 +2,16 @@ import React from "react";
 import Image from "next/image";
 import Button from "./Button";
 
-const Card = ({ img, header, text, id }) => {
+const Card = ({ img, header, text, id, className }) => {
   return (
     <div className="max-w-sm  rounded-lg shadow" id={id}>
       <Image
-        className="rounded-lg"
+        className={`rounded-lg ${className}`}
         width={453}
         height={458}
         src={img}
         alt="img"
+  
       />
 
       <div

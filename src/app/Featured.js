@@ -24,7 +24,7 @@ const Featured = () => {
             </button>
           </div>
         </div>
-        <Image src={glasses} width={200} height={80} alt="girl VR" className="ml-20" />
+        <Image src={glasses} width={200} height={80} alt="girl VR" className="" />
 
         <div className="flex justify-end w-full relative">
           <Image src={character3} width={200} height={80} alt="Character3" className="" />
