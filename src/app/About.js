@@ -6,10 +6,9 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <section className="bg-[#021611B5] relative flex items-center justify-between">
-      <div className="bg-assasins bg-center bg-no-repeat  min-h-screen">
-
-      </div>
+    <section className="bg-[#021611B5] relative flex flex-col items-center justify-between md:flex-row">
+      {/* <div className="bg-assasins bg-center bg-no-repeat  min-h-screen">
+      </div> */}
       <div className="my-8 p-5">
         <h3 className="font-raleway font-semibold text-xl">About</h3>
         <h5 className="font-normal text-4xl text-primary my-3">
@@ -29,10 +28,10 @@ const About = () => {
         </p>
       </div>
 
-      <div className="flex">
-        <Image src={uvium} width={300} height={100} alt="uvium" />
-        <Image src={unlock} width={250} height={100} alt="unclock" />
-        <Image src={splinter} width={300} height={100} alt="splinter" />
+      <div className="flex space-x-5">
+        <Image src={uvium} width={300} height={100} className="w-[200px] md:w-[300px]" alt="uvium" />
+        {/* <Image src={unlock} width={250} height={100} alt="unclock" /> */}
+        <Image src={splinter} width={300} height={100} className="w-[200px] md:w-[300px]" alt="splinter" />
       </div>
     </section>
   );

@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex items-center justify-between p-4 bg-transparent sticky top-0 z-50 border-[#698970] border-b shadow-md">
-      <h1 className="text-gradient-green cursor-pointer">Blockblaze Hub</h1>
+      <h1 className="text-primary text-3xl cursor-pointer">Blockblaze Hub</h1>
 
       <div className="md:hidden">
         <button
@@ -23,25 +23,25 @@ const Navbar = () => {
           {openMenu ? (
             <FaTimes className="w-6 h-6" />
           ) : (
-            <FaBars className="w-6 h-6       text-black" />
+            <FaBars className="w-6 h-6  text-black" />
           )}
         </button>
 
         {/* Sidebar */}
         <div className={`fixed inset-0 bg-gray-800 bg-opacity-75 z-50 ${openMenu ? "visible" : "hidden"}`}>
-          <div className="flex flex-col h-full max-w-xs w-full bg-white shadow-lg">
+          <div className="flex flex-col h-full max-w-xs w-full bg-primary shadow-lg">
             <div className="flex justify-end p-4">
               <button
                 type="button"
-                className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm bg-black rounded-lg"
+                className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm bg-white rounded-lg"
                 onClick={toggleMenu}
               >
-                <FaTimes className="w-6 h-6" />
+                <FaTimes className="w-6 h-6 text-black" />
               </button>
             </div>
 
             {/* Menu items */}
-            <ul className="flex flex-col p-4 text-black">
+            <ul className="flex flex-col p-4 text-white">
               <li className="cursor-pointer text-dark dark:text-primaryLight hover:border-b border-primaryLight">
                 Home
               </li>
