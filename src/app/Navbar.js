@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex items-center justify-between p-4 bg-transparent sticky top-0 z-50 border-b border-[#698970] shadow-md">
-      <h1 className="text-primary text-3xl cursor-pointer">Blockblaze Hub</h1>
+      <h1 className="text-primary lg:text-3xl cursor-pointer 2xl:text-5xl">Blockblaze Hub</h1>
 
       <div className="md:hidden">
         <button

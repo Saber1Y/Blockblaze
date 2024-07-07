@@ -28,7 +28,7 @@ const About = () => {
         </p>
       </div>
 
-      <div className="flex space-x-5 ">
+      <div className="flex items-center space-y-3 flex-col md:flex-row space-x-5 ">
         <Image src={uvium} width={300} height={100} className="w-[200px] object-contain md:w-[300px]" alt="uvium" />
         {/* <Image src={unlock} width={250} height={100} alt="unclock" /> */}
         <Image src={splinter} width={300} height={100} className="w-[200px] object-contain md:w-[300px]" alt="splinter" />
