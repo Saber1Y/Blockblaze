@@ -6,29 +6,35 @@ import gamepad from "../../public/images/gamepad.png";
 
 const Featured = () => {
   return (
-    <section className="gradient-custom w-full">
-      <div className="flex items-center ">
-        <div className="p-4 space-y-3">
+    <section className="gradient-custom w-full p-8">
+      <div className="flex flex-col md:flex-row items-center justify-between">
+        <div className="p-4 space-y-3 md:w-1/2">
           <h2 className="text-[#118670] font-semibold text-3xl">
             Featured Games
           </h2>
-          <p className="font-mess tracking-wide">
-            Featured games Discover our featured to blockchain games{" "}
+          <p className="font-raleway font-bold  text-2xl">
+            Discover our featured blockchain games.
           </p>
-          <div className=" flex space-x-5">
+          <div className="flex space-x-5">
             <button className="border-none rounded-lg bg-purple-700 text-white px-5 py-2">
               Popular
             </button>
-            <button className="border border-x-[#6F4DA0] bg-neutral-700 border-y-[#3E89A2] rounded-lg  text-white px-5 py-2">
+            <button className="border border-x-[#6F4DA0] bg-neutral-700 border-y-[#3E89A2] rounded-lg text-white px-5 py-2">
               Play now
             </button>
           </div>
         </div>
-        <Image src={glasses} width={200} height={80} alt="girl VR" className="" />
 
-        <div className="flex justify-end w-full relative">
-          <Image src={character3} width={200} height={80} alt="Character3" className="" />
-          <Image src={gamepad} width={180} height={80} alt="Controller" />
+        <div className="flex items-center justify-between w-full md:w-1/2 mt-8 md:mt-0">
+          <div className="flex justify-center w-1/3">
+            <Image src={glasses} alt="girl VR" className="w-full object-contain h-auto" />
+          </div>
+          <div className="flex justify-center w-1/3">
+            <Image src={character3} alt="Character3" className="w-full object-contain h-auto" />
+          </div>
+          <div className="flex justify-center w-1/3">
+            <Image src={gamepad} alt="Controller" className="w-full object-contain h-auto" />
+          </div>
         </div>
       </div>
     </section>

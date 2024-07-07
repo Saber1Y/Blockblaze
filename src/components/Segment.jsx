@@ -9,7 +9,7 @@ const Segment = ({ number, header, details, bgColor }) => {
     >
       <span className=" text-4xl">{number}</span>
       <div className="flex w-full">
-        <h3 className="text-3xl pr-5">{header}</h3>
+        <h3 className="text-2xl md:text-3xl pr-5">{header}</h3>
       </div>
       <ul className="mt-3 font-raleway text-sm list-disc list-inside">
         {details.map((detail, index) => (
