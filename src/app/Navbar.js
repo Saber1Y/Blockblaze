@@ -46,7 +46,7 @@ const Navbar = () => {
             {/* Menu items */}
             <ul className="flex flex-col p-4 text-white">
               {["Home", "About", "Games", "Marketplace", "Dashboard"].map((item, index) => (
-                <li key={index} className="cursor-pointer text-dark dark:text-primaryLight hover:border-b border-primaryLight">
+                <li key={index} className="cursor-pointer text-dark dark:text-primaryLight hover:border-b border-primaryLight 2xl:text-5xl">
                   {item}
                 </li>
               ))}
@@ -87,7 +87,7 @@ const Navbar = () => {
       <div className="hidden md:flex md:items-center md:space-x-8">
         <ul className="flex md:flex-row md:space-x-8 items-center">
           {["Home", "About", "Games", "Marketplace", "Dashboard"].map((item, index) => (
-            <li key={index} className="cursor-pointer text-dark dark:text-primaryLight hover:border-b border-primaryLight">
+            <li key={index} className="cursor-pointer text-dark dark:text-primaryLight hover:border-b border-primaryLight 2xl:text-5xl">
               {item}
             </li>
           ))}
@@ -118,7 +118,7 @@ const Navbar = () => {
         />
       </form>
 
-      <button className="bg-purple-800 text-white border-none p-4 rounded-lg lg:px-8 py-2 font-medium text-sm gradient-purple hidden md:block">
+      <button className="bg-purple-800 text-white border-none p-4 rounded-lg lg:px-8 py-2 font-medium text-sm gradient-purple hidden md:block 2xl:text-5xl">
         Log in
       </button>
     </nav>
