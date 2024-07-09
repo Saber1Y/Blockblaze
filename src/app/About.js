@@ -9,7 +9,7 @@ const About = () => {
     <section className="bg-[#021611B5]  flex flex-col items-center justify-between lg:flex-row">
       {/* <div className="bg-assasins bg-center bg-no-repeat  min-h-screen">
       </div> */}
-      <div className="my-8 p-4 items-center">
+      <div className="my-8 p-4 items-center 2xl:text-5xl">
         <h3 className="font-raleway font-semibold text-xl">About</h3>
         <h5 className="font-normal text-4xl text-primary my-3">
           Blockblaze Hub
