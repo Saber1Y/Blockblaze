@@ -118,7 +118,7 @@ const Navbar = () => {
         />
       </form>
 
-      <button className="bg-purple-800 text-white border-none p-4 rounded-lg lg:px-8 py-2 font-medium text-sm gradient-purple hidden md:block 2xl:text-5xl">
+      <button className="bg-purple-800 text-white border-none p-4 rounded-lg lg:px-8 py-2 font-medium text-sm gradient-purple hidden md:block 2xl:text-5xl hover:bg-transparent">
         Log in
       </button>
     </nav>
