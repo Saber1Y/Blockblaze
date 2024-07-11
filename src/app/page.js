@@ -1,11 +1,11 @@
 import React from 'react'
-import { Hero, About, Featured, Games, Unlock, Community } from './index'
+import { Home, About, Featured, Games, Unlock, Community } from './index'
 
 
 const page = () => {
   return (
     <>
-      <Hero />
+      <Home />
       <About />
       <Featured />
       <Games />

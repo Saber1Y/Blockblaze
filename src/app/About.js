@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <section className="bg-[#021611B5]  flex flex-col items-center justify-between lg:flex-row">
+    <section className="bg-[#021611B5]  flex flex-col items-center justify-between lg:flex-row" id="#about">
       {/* <div className="bg-assasins bg-center bg-no-repeat  min-h-screen">
       </div> */}
       <div className="my-8 p-4 items-center 2xl:text-5xl">
@@ -38,3 +38,4 @@ const About = () => {
 };
 
 export default About;
+

@@ -16,10 +16,10 @@ const Featured = () => {
             Discover our featured blockchain games.
           </p>
           <div className="flex space-x-5">
-            <button className="border-none rounded-lg bg-purple-700 text-white px-5 py-2">
+            <button className="border-none rounded-lg bg-purple-700 text-white px-5 py-2 hover:bg-transparent">
               Popular
             </button>
-            <button className="border border-x-[#6F4DA0] bg-neutral-700 border-y-[#3E89A2] rounded-lg text-white px-5 py-2">
+            <button className="border border-x-[#6F4DA0] bg-neutral-700 border-y-[#3E89A2] rounded-lg text-white px-5 py-2 hover:bg-transparent">
               Play now
             </button>
           </div>

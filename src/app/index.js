@@ -1,5 +1,5 @@
 import Navbar from './Navbar';
-import Hero from './Hero';
+import Home from './Home';
 import About from './About';
 import Featured from './Featured';
 import Games from './Games';
@@ -13,7 +13,7 @@ import Footer from './Footer';
 
 export {
     Navbar,
-    Hero,
+    Home,
     About,
     Featured,
     Games,

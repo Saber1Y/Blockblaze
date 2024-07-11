@@ -22,12 +22,13 @@ const Community = () => {
                         <b>Access Exclusive Contents:</b> <span className="font-raleway tracking-wide">Enjoy members-only content, guides, and tutorials to enhance your experience.</span>
                     </li>
                 </ol>
-                <button className="border-none rounded-lg bg-purple-700 text-white px-6 py-2 mt-4">
+                <button className="border-none rounded-lg bg-purple-700 text-white px-6 py-2 mt-4 hover:bg-transparent">
                     Join now
                 </button>
             </div>
         </section>
     );
 };
+
 
 export default Community;

@@ -5,6 +5,7 @@ import Image from 'next/image';
 import girl from "../../public/images/girl.png";
 import knight from "../../public/images/Knight.png";
 
+
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
 

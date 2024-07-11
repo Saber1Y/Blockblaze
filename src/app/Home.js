@@ -23,8 +23,8 @@ const Hero = () => {
           <br />
           Earn Mechanics to NFT Marketplaces and Community Events.
         </p>
-        <div className="mt-7 flex space-x-5 group-[]:">
-          <button className="border-none rounded-lg bg-purple-700 text-white px-5 py-2 hover:bg-transparent cursor-pointer">
+        <div className="mt-7 flex space-x-5">
+          <button className="bg-purple-800 text-white border-none p-4 rounded-lg lg:px-8 py-2 font-medium text-sm gradient-purple hidden md:block 2xl:text-5xl hover:bg-transparent cursor-pointer">
             Get Started
           </button>
           <button className="border-none rounded-lg bg-primary text-white px-5 py-2 hover:bg-transparent cursor-pointer">
